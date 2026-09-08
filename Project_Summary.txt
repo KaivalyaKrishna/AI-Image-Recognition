@@ -1,0 +1,11 @@
+1. Title: 
+AI-Powered Image Recognition System for Automated Quality Control in Industrial Manufacturing
+
+2. Domain: 
+Computer Vision, Deep Learning, Industrial Automation
+
+3. Tech Stack: 
+Python, TensorFlow / Keras, MobileNetV2, OpenCV, Streamlit, Pandas, Scikit-Learn
+
+4. Abstract:
+Traditional manual quality inspection in manufacturing environments is labor-intensive, slow, and susceptible to human fatigue and inconsistency. This project presents an end-to-end automated visual quality control system capable of detecting structural defects in manufactured casting products. Leveraging Transfer Learning with the MobileNetV2 convolutional neural network architecture pretrained on ImageNet, the model was trained and validated on a benchmark industrial casting dataset consisting of 1,300 images across two classes (OK vs. Defective). The trained classifier achieved a 93.08% accuracy on unseen test data with a 0.97 defect precision score. To make the solution operationally viable for factory technicians, a Streamlit web application was developed that facilitates drag-and-drop image inspection, logs inspection timestamps and decisions, displays real-time defect rate KPIs, and allows export of formal quality audit reports.
