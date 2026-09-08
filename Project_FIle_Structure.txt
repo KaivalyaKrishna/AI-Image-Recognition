@@ -1,0 +1,8 @@
+AI-Image-Recognition/
+├── App.py                            # Streamlit web application & inspection station
+├── casting_inspection_model.keras    # Trained MobileNetV2 deep learning weights
+├── inspection_records.csv            # Auto-generated inspection audit database
+├── requirements.txt                  # Environment dependencies
+├── README.md                         # Project documentation and reproduction guide
+└── notebooks/
+    └── Model_Training.ipynb          # Kaggle notebook containing data preparation, EDA, training, and evaluation
